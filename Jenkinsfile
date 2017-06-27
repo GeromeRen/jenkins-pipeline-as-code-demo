@@ -1,7 +1,7 @@
 def flow
 
 // 使用node01节点进行接下来的脚本执行
-node("node01"){
+node("master"){
     stage('Preparation') {
       echo 'The Preparation stage get code from SCM'
     }
